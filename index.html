@@ -6,86 +6,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podcast</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 <body>
-    <i class="fab fa-spotify"></i>
-    <header>
-        <div><img src="images/logo.svg" alt="logo"> </div> <nav><ul><li><a href="#episodios"><p class = "mono-font">EPISODIOS</p></a></li><li><a href="#nosotros"><p class = "mono-font">NOSOTROS</p></a></li><li><a href="#entrevistas"><p class = "mono-font">ENTREVISTAS</p></a></li><li><a href="#topicos"><p>TOPICOS</p></a></li></ul></nav>
+  
+
+    <div class = "main-container">
+   <header>
+        <img class ="left-padding" src="images/logo.svg" alt="logo">  <nav class = "menu"> <input type="checkbox" id="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+             <ul>
+                 <li><a href="#episodios"><p class = "mono-font">EPISODIOS</p></a></li>
+                 <li><a href="#nosotros"><p class = "mono-font">NOSOTROS</p></a></li>
+                 <li><a href="#entrevistas"><p class = "mono-font">ENTREVISTAS</p></a></li>
+                 <li><a href="#topicos"><p class = "mono-font">TOPICOS</p></a></li>
+            </ul>
+        </nav>
     </header>
+    </div>
+    <div class ="main-container">
         <main>
 
-            <h1>Hello <span>world</span> pale blue dot <span>.</span></h1>
-            <p class = "mono-font">Un podcast...</p>
-            <div class = "button"><a href=""><p class = "mono-font-medium">CONOCE MAS</p></a></div>
+            <h1 class = "left-padding">Hello <span class = "world-span">world</span> pale blue dot <span>.</span></h1>
+            <p class = "left-padding mono-font">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+        
+            <div class = "button"><a href=""><p class = "mono-font-medium button-text">CONOCÉ MÁS</p></a></div>
         </main>
+    </div>
+        <section class = "blue-background diagonal-two-ways" id = "episodios">
+            <div class ="main-container">
+            <h2 class = "left-padding white-title">Episodios</h2>
+            <div class = "flex-column-start">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        </div>
+        </section>
     
-        <section class = "blue-background" id = "episodios">
-            <h2 class = "white-title">Episodios</h2>
-            <iframe src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </section>
-        <section>
-            <img src="" alt="">
-        </section>
-        <section id = "nosotros">
-            <img src="images/phone.png" alt="phone picture">
-            <h2>De donde venimos</h2>
-            <p class = "mono-font">Our posturings...</p>
-        </section>
+        <div class ="main-container">
+            <section id = "nosotros">
+                <div class = "flex-row">
+                    <div class = "fist">
+                        <img  class = "phone-img" src="images/phone.png" alt="phone picture">
+                    </div>
+                    <div class = "second">
+                        <h2 class = "left-padding flex-column ">De dónde venimos</h2> <p class = "left-padding mono-font">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+                            Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p></div>
+                        </div>
+                    
+            
+                </div>
+            
+            
+            </section>
+    </div>
         <section id = "entrevistas">
-            <h2>Invitadas/os estelares</h2>
-            <img src="images/grace-hopper.png" alt="Grace Hopper">
-            <img src="images/Katie-Bouman.png" alt="Katoe Bouman">
-            <img src="images/Margaret_Hamilton.png" alt="Margaret Hamilton">
-            <img src="images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="E.R.A univac 1103 computer in 1950s">
-            <img src="images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="Computers operators with an Eniac">
-            <img src="images/susan-kare.png" alt="Susan Kare">
+            <div class="main-container">
+            <h2 class = "left-padding">Invitadas/os estelares</h2>
+        </div>
+        <div class = "flex-guests">
+            <img class="guests-img" src="images/grace-hopper.png" alt="Grace Hopper">
+            <img  class="guests-img" src="images/Katie-Bouman.png" alt="Katoe Bouman">
+            <img class="guests-img" src="images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+            <img class="guests-img" src="images/1950s-computer.png" alt="E.R.A univac 1103 computer in 1950s">
+            <img class="guests-img" src="images/eniac.png" alt="Computers operators with an Eniac">
+            <img class="guests-img" src="images/susan-kare.png" alt="Susan Kare">
+        </div>
         </section>
-        <section id = "topicos">
-            <h2>Algunos de nuestros temas</h2>
-
-            <div>
-                <img src="images/files.svg" alt="Files">
-                <p class = "semibold">Trabajo remoto</p>
-            </div>
-
-            <div>
-                <img src="images/head.svg" alt="Head">
-                <p class = "semibold">Repensando la programacion</p>
-            </div>
-
-            <div>
-                <img src="images/computer.svg" alt="Computer">
-                <p class = "semibold">Bases del codigo</p>
-            </div>
-            
-            <div>
-                <img src="images/security.svg" alt="computer">
-                <p class = "semibold">Seguridad informatica</p>
-            </div>
-            
-            
-            
-        </section>
-        <section class = "blue-background">
-            <h2 class = "white-title">Queres las ultimas novedades?</h2>
-           <div class = "button"><a href=""> <p class = "mono-font-medium">ESCUCHA LOS EPISODIOS</p> </a></div> 
-        </section>
-        <footer>
-            <p class = "mono-font">2019- Hello blue pale dot</p>
-            <ul>
-                <li><i class="fab fa-spotify"></i></li>
-                
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </footer>
     
+        <div class = "main-container">
+        <section id = "topicos">
+
+
+
+           
+            <h2 class="left-padding">Algunos de nuestros temas</h2>
+            <div class = "flex-row">
+            <div class = "topics-img-first">
+                <img class ="center-img" src="images/files.svg" alt="Files">
+                <p class = " center-text semibold">Trabajo remoto</p>
+            </div>
+
+            <div class = topics-img-rest>
+                <img class ="center-img" src="images/head.svg" alt="Head">
+                <p class = "center-text semibold">Repensando la programacion</p>
+            </div>
+
+            <div class = topics-img-rest>
+                <img  class= "center-img" src="images/computer.svg" alt="Computer">
+                <p class = " center-text semibold">Bases del codigo</p>
+            </div>
+            
+            <div class = topics-img-rest>
+                <img class = "center-img" src="images/security.svg" alt="computer">
+                <p class = "center-text semibold">Seguridad informatica</p>
+            </div>
+        </div>
+            
+            
+        </section>
+    </div>
+        <section class = "blue-background diagonal-top">
+            <div class="main-container">
+            <h2 class = "center-text white-title">¿Querés las últimas novedades?</h2>
+        </div>
+           <div class = "button"><a href=""> <p class = "mono-font-medium">ESCUCHA LOS EPISODIOS</p> </a></div> 
+        
+        </section>
+        <div class="main-container">
+        <footer>
+
+            
+            <div class ="flex-footer">
+                <div class ="footer-p">
+                <p class = "center-text mono-font">© 2019— Hello blue pale dot</p>
+                </div>
+                <div class = "footer-icons">
+                 <ul class = "center-text">
+                <li class = "icons"> <i class="fa fa-spotify"> </i></li>
+                <li class = "icons"> <i class="fa fa-instagram"> </i></li>
+                <li class = "icons"> <i class="fa fa-twitter"> </i> </li>
+                <li class = "icons"> <i class="fa fa-facebook"> </i></li>
+                <li class = "icons"><i class="fa fa-telegram"></i></li>
+                </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+   
 </body>
+
 </html>
 
 
