@@ -50,6 +50,7 @@ header nav {
 
 .menu p:hover {
   color: #00f3bb;
+  text-decoration: line-through;
 }
 
 .menu a {
@@ -57,8 +58,8 @@ header nav {
   line-height: 28px;
   display: block;
 }
-.menu a:active {
-  text-decoration: line-through;
+
+.menu a:active p {
   color: rgba(6, 10, 36, 0.56);
 }
 
