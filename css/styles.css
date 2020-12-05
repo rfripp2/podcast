@@ -327,6 +327,10 @@ a:visited {
     color: #060a24;
   }
 
+  main .button {
+    margin-left: 200px;
+  }
+
   .flex-column-start {
     margin-left: 100px;
     display: flex;
