@@ -259,6 +259,10 @@ img {
   padding: 20px 20px;
 }
 
+.icons:hover {
+  color: #00f3bb;
+}
+
 a:visited {
   color: #060a24;
 }
